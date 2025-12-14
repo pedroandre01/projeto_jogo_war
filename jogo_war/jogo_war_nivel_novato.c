@@ -1,5 +1,6 @@
 
-// Esse é o cadastro do jogo WAR de territórios (versão nível novato....)
+// ...existing code...
+// Esse é o cadastro do jogo WAR de territórios (versão nível novato)
 // O código abaixo lê 5 territórios do usuário e exibe os cadastrados.
 
 #include <stdio.h>   // funções de entrada/saída (printf, scanf, fgets, getchar)
@@ -58,8 +59,7 @@ int main() {
     // Exibe a lista de territórios cadastrados
     printf("\n--- Territorios cadastrados ---\n");
     for (int i = 0; i < totalTerritorios; i++) {
-        printf("Territorio %d: nome=%s, cor=%s, tropas=%d\n",
-               i + 1, mapa[i].nome, mapa[i].cor, mapa[i].tropas);
+        printf("Territorio %d: nome=%s, cor=%s, tropas=%d\n", i + 1, mapa[i].nome, mapa[i].cor, mapa[i].tropas);
     }
 
     return 0; // encerra o programa com sucesso
